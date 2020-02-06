@@ -91,7 +91,7 @@ Connect Four is essentially Tic-Tac-Toe on a larger scale. Here are the rules an
 
 * The game is played on a 7-by-6 grid of cells.
 * Players take turns placing pieces (red or yellow) on the board.
-* When a player places a piece on the baord, he or she does so by choosing a column. The piece is then placed in the first available cell in that column (starting from the bottom of the board).
+* When a player places a piece on the board, he or she does so by choosing a column. The piece is then placed in the first available cell in that column (starting from the bottom of the board).
 * A player wins if he or she places four consecutive pieces: vertically, horizotnally, or diagonally.
 * If the board is entirely filled without either player winning, the game ends in a tie.
 
@@ -114,7 +114,7 @@ Ultimate Tic-Tac-Toe is like nine separate games of Tic-Tac-Toe. Players need to
 * Players take turns marking the squares with either an X or an O.
 * The local board on which you must play is determined by your opponent's previous move.
 * If your opponent sends you to a completed local board with one or more free squares, you must play on that local board.
-* If your opponent sends you to a completed local board with no free squares, you can play anywhere on the baord.
+* If your opponent sends you to a completed local board with no free squares, you can play anywhere on the board.
 * To make things a little easier for the players, you should highlight the local board in which they must play on each turn.
 * As in ordinary Tic-Tac-Toe, a player wins a local board if he or she marks three consecutice squares: vertically, horizontally, or diagonally.
 * A player wins the overall game if his or her local wins represent three consecutive local boards: vertically, horizontally, or diagonally.
@@ -148,7 +148,7 @@ The user interface is how the application looks. This comes down to your structu
 Looking for a little inspiration? Here are some cool features you might consider implementing.
 
 * Keep score. Let players play multiple games, and keep track of their wins and losses.
-* Add a difficulty level, which can manifest in several ways. Maybe the paddle is smaller when the difficuluty is greater. Maybe the ball moves faster. You might also want to gradually increase the speed of the ball over time.
+* Add a difficulty level, which can manifest in several ways. Maybe the paddle is smaller when the difficulty is greater. Maybe the ball moves faster. You might also want to gradually increase the speed of the ball over time.
 * Give the player a certain number of lives. The game only ends if the player runs out of lives.
 * Include some power ups in random bricks. When the brick breaks, the power up falls to the bottom and the user needs to catch it with the paddle. The power up can be anything that assists the player: a larger paddle, a bigger or slower ball, or an extra life!
 
